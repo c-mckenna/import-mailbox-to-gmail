@@ -1,3 +1,10 @@
+# What is this fork?
+Quickly modified to suit my own needs without rigorous testing (beyond importing 240k emails from Google Takeout), use
+at your own risk.
+
+* Modified to run on Python3.9
+* Added a ThreadPoolExecutor to speed things up (note: 10 TPS rate limit on users/messages/import)
+
 # Import .mbox files to Google Workspace (formerly G Suite / Google Apps)
 
 This script allows Google Workspace admins to import mbox files in bulk for their
